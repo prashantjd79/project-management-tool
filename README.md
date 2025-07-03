@@ -1,4 +1,3 @@
-````markdown
 # Project Management Tool ✅
 
 A basic full-stack Project Management App with user authentication, project CRUD, task tracking, and seed data.
@@ -7,11 +6,11 @@ A basic full-stack Project Management App with user authentication, project CRUD
 
 ## ✅ Tech Stack
 
-- **Backend:** Node.js, Express.js, MongoDB, JWT, bcrypt  
-- **Frontend:** React.js + TypeScript + Tailwind CSS  
-- **Database:** MongoDB  
-- **API Testing:** Postman  
-- **Seed Script:** Node.js Seeder  
+- **Backend:** Node.js, Express.js, MongoDB, JWT, bcrypt
+- **Frontend:** React.js + TypeScript + Tailwind CSS
+- **Database:** MongoDB
+- **API Testing:** Postman
+- **Seed Script:** Node.js Seeder
 
 ---
 
@@ -19,22 +18,22 @@ A basic full-stack Project Management App with user authentication, project CRUD
 
 ### Backend (Node.js + Express.js)
 
-- User Registration & Login (JWT Auth, Password Hashing)  
-- CRUD for Projects  
-- CRUD for Tasks (Nested under Projects)  
-- Filter Tasks by Status  
-- Protected Routes (JWT Auth Middleware)  
-- MongoDB Models with Mongoose  
-- Seeder Script for Dummy Data  
+- User Registration & Login (JWT Auth, Password Hashing)
+- CRUD for Projects
+- CRUD for Tasks (Nested under Projects)
+- Filter Tasks by Status
+- Protected Routes (JWT Auth Middleware)
+- MongoDB Models with Mongoose
+- Seeder Script for Dummy Data
 
 ### Frontend (React + TypeScript)
 
-- Login/Register Pages  
-- Dashboard (User’s Projects)  
-- Project Details Page (Tasks with Filter by Status)  
-- Add/Edit Project Form  
-- Add/Edit Task Form  
-- React Router + Axios + Tailwind CSS Styling  
+- Login/Register Pages
+- Dashboard (User’s Projects)
+- Project Details Page (Tasks with Filter by Status)
+- Add/Edit Project Form
+- Add/Edit Task Form
+- React Router + Axios + Tailwind CSS Styling
 
 ---
 
@@ -46,7 +45,6 @@ A basic full-stack Project Management App with user authentication, project CRUD
 cd backend
 npm install
 npm run dev
-````
 
 > Make sure MongoDB is running and `.env` file has correct connection string:
 
@@ -143,3 +141,4 @@ Prashant Singh 😄 ✅
 
 ```
 ```
+
