@@ -23,26 +23,26 @@ const AppRoutes: React.FC = () => {
 
   return (
     <>
-      {/* 🧭 Show Navbar only when logged in and not on auth pages */}
+      {}
       {isLoggedIn && !isAuthPage && <Navbar />}
 
       <Routes>
-        {/* Auth */}
+        
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
-        {/* Dashboard + Projects */}
+       
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects/add" element={<ProjectForm />} />
         <Route path="/projects/:projectId" element={<ProjectDetails />} />
         <Route path="/projects/:projectId/edit" element={<ProjectForm />} />
 <Route path="*" element={<LandingPage />} />
 
-        {/* Tasks */}
+       
         <Route path="/projects/:projectId/tasks/add" element={<TaskForm />} />
         <Route path="/projects/:projectId/tasks/:taskId/edit" element={<TaskForm />} />
 
-        {/* Fallback */}
+        
         <Route
           path="*"
           element={

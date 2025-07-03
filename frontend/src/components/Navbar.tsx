@@ -13,9 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-gray-800 p-4 text-white flex items-center justify-between shadow">
       <div className="flex space-x-4">
         <Link className="hover:text-yellow-300 font-semibold" to="/dashboard">Dashboard</Link>
-        <Link className="hover:text-yellow-300 font-semibold" to="/projects">Projects</Link>
-        <Link className="hover:text-yellow-300 font-semibold" to="/tasks">Tasks</Link>
-        <Link className="hover:text-yellow-300 font-semibold" to="/profile">Profile</Link>
+       
       </div>
 
       <button
